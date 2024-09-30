@@ -92,7 +92,6 @@ int main(void) {
             Pilha_jogador(&p1, &p2);
             gameStats(&soma_player, &soma_dealer, &banco);
           }
-
         } while(soma_dealer < 18);
         standVerify(soma_player, soma_dealer, &banco, &control);
       }
